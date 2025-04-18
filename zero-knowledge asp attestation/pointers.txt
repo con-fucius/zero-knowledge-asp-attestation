@@ -1,0 +1,16 @@
+The project structure includes:
+*   `contracts/`: Solidity smart contracts (`ASPRegistry.sol` and the generated `Verifier.sol`).
+*   `circuits/`: Circom ZK circuit (`attestation.circom`) and a placeholder for the required Powers of Tau file.
+*   `asp-service/`: Python FastAPI backend simulating the ASP, including requirements and a mock blocklist.
+*   `scripts/`: Node.js scripts for ZK setup, proof generation, contract deployment, and attestation submission.
+*   Configuration files: `package.json`, `hardhat.config.js`, `.gitignore`.
+*   Documentation: `README.md` and `instructions.md`.
+
+You can now follow the detailed steps in `instructions.md` to:
+1.  Install dependencies (`npm install`, `pip install`).
+2.  Download the required Powers of Tau file.
+3.  Run the ZK setup (`npm run setup:zk`).
+4.  Compile contracts (`npm run compile:contracts`).
+5.  Run the local demo using three terminals (`npx hardhat node`, `npm run deploy:local`, `npm run start:asp`, `npm run submit`).
+
+Remember to perform the manual actions specified in the instructions, such as downloading the `.ptau` file and updating the contract address in `scripts/submit_attestation.js`.
