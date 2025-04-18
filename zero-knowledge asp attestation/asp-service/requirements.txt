@@ -1,6 +1,0 @@
-fastapi>=0.100.0
-uvicorn[standard]>=0.20.0
-python-dotenv>=1.0.0
-# Using a specific, simple Merkle tree library for the demo
-# In a real project, consider more robust options if needed.
-py-merkle-trees>=1.0.3
