@@ -2,7 +2,7 @@
 
 This PoC project demonstrates a framework for Association Set Providers (ASPs) in a Privacy Pools-like ecosystem to generate Zero-Knowledge Proofs attesting to the integrity of their exclusion set commitments. Users can then potentially aggregate these attestations.
 
-**Disclaimer:** This is a demonstration project intended for educational purposes. The ZK circuits are simplified, it lacks robust error handling, and it has not undergone security audits. **DO NOT USE IN PRODUCTION.**
+**Disclaimer:** This is a demonstration project intended for educational purposes. The ZK circuits are simplified, it lacks robust error handling, and it has not undergone security audits.
 
 ## Architecture Overview
 
@@ -40,7 +40,7 @@ This PoC project demonstrates a framework for Association Set Providers (ASPs) i
 
 1.  **Clone Repository:**
     ```bash
-    git clone <your-repo-url> zk-asp-attestation
+    git clone https://github.com/con-fucius/zero-knowledge-asp-attestation.git
     cd zk-asp-attestation
     ```
 
